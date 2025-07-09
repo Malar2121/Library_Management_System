@@ -1,0 +1,43 @@
+.x1 {
+    color: #d44b4b;
+    font-weight: bold;
+    padding:20px;
+
+}
+
+.x {
+    padding-bottom: 20px;
+}
+
+.x lable{
+    display: block;
+}
+
+ .x1 input {
+
+     padding: 10px;
+     width: 100%;
+        
+    }
+.x2 input[type="submit"] {
+    background-color: #0db10b;
+    padding: 10px;
+    border: none;
+    width: 10%;
+}
+
+.x3 input {
+    padding: 10px;
+    width: 10%;
+}
+
+.x4 input {
+    padding: 10px;
+    width: 10%;
+}
+
+.rightNav1 {
+    padding: 10px;
+    width: 10%;
+    
+}

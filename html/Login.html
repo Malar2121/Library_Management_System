@@ -1,0 +1,162 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title> Login Page </title>
+<link rel="stylesheet" href="../css/home.css">
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: light blue;
+}
+button { 
+       background-color: #030A80; 
+       width: 100%;
+        color: orange;  
+        border: none; 
+        cursor: pointer; 
+         }
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid green; 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color: lightblue;
+    } 
+</style> 
+</head>  
+<body> 
+<header>
+      <div class="logo"> 
+		  <a href="../html/home.html">
+			 <img src="../images/logo.jpeg" height="80px" alt="">
+		  </a>
+       </div>
+      <nav>
+         <ul>
+            <li><a href="../html/home.html">Home</a></li>
+            <li><a href="../html/contactus.html">Contact</a></li>
+            <li><a href="../php/viewprofile.php">Profile</a></li>
+            <div class="line">
+            <li><a href="../html/Signup.html"><b>Sign in</b></a></li>
+            </div>
+         </ul>
+      </nav> 
+	</header> 
+     
+    <form>
+        <div class="container"> 
+		    <center> <h1>  Login  </h1> </center>
+            <label>Username : </label> 
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label> 
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button style="background-color:#030A80"type="submit">Login</button> 
+            <input type="checkbox" checked="checked"> Remember me 
+        </div> 
+    </form> 
+	<footer>
+
+		<div class="footer">
+			<div class="inner-footer">
+	
+	
+				<div class="footer-items">
+					<img src="../images/plogo.jpeg" height="50" alt="">
+					<p>
+						Our library management system is a software that is designed to manage
+						all the functions of a library. It helps librarian to maintain the database
+						of new books and the books that are borrowed by members along with their
+						due dates. This system completely automates all your library's activities.
+					</p>
+				</div>
+	
+				<div class="footer-items">
+					<h2 class="head">Quick Links</h2>
+						<div class="border"></div>
+						<ul>
+							<a href="#"><li>Scroll up</li></a>
+							<a href="../html/messageus.html"> <li>Message Us</li></a>
+							<a href="../html/aboutus.html"><li>About Us</li></a>
+						</ul>
+				</div>
+	
+				<div class="footer-items">
+					<h2 class="head">Others</h2>
+						<div class="border"></div>
+						<ul>
+							<a href="../html/Librarian.html"><li>Librarian</li></a>
+							<a href="../html/studymaterial.html"><li>Study Material</li></a>
+							<a href="../html/feedbackus.html"><li>Feedback</li></a>
+						</ul>
+				</div>
+	
+				<div class="footer-items">
+					<h2 class="head">Contact US</h2>
+						<div class="border"></div>
+	
+						<div class="contact">
+						<div class="place">
+							<img src="../images/location.png"  alt=""> 
+							<span>No.34/10, Kaduwala Road, Malabe,SriLanka,4000.</span>
+						 </div>
+			 
+						 <br><div class="phone">
+							<img src="../images/mobile.png"  alt=""> 
+							<span>0112228899</span>
+						 </div>
+			 
+						 <div class="mail">
+							<img src="../images/mail.png"  alt=""> 
+							<span>customersupport@library.lk</span>
+						 </div>
+						</div>
+					
+				</div>
+	
+	
+			<div class="footer-bottom">
+				<ul>
+					<div class="social">
+						<a href="https://www.facebook.com"><img src="../images/facebook.png" height="25" width="25t"></a>
+						<a href="https://www.instagram.com"><img src="../images/instagram.png" height="25" width="25t"></a>
+						<a href="https://www.linkedin.com"><img src="../images/linkedin.png" height="25" width="25t"></a>
+						<a href="https://twitter.com"><img src="../images/twitter.png"  height="25" width="25t"></a>
+						<a href="https://accounts.snapchat.com"><img src="../images/snapschat.png"  height="25" width="25t"></a>
+						<a href="https://www.whatsapp.com"><img src="../images/whatsapp.png" height="25" width="25t"></a>
+					</div>
+				</ul>
+	
+				<h1> Copyrights 2022 &copy;LIBRARY. All Rights resrved.</h1>
+				
+			</div>
+			
+	
+	
+			</div>
+		</div>
+	
+				
+		
+	
+	 </footer>
+<script src="../javascript/Login.js"></script>
+</body>   
+</html>
